@@ -19,7 +19,7 @@ namespace AppPaiements
 
         public virtual void AfficherDetails()
         {
-            Console.WriteLine($"Le Montant de paiement est :{Montant},avec Description:{Description}");
+            Console.WriteLine($"Le Montant de paiement est :{Montant} $,avec Description:{Description}");
         }
     }
 }

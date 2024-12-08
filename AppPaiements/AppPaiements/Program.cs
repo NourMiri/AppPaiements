@@ -11,5 +11,11 @@ internal class Program
         paiementCC1.AfficherDetails();
         paiementCC2.AfficherDetails();
         paiementCC3.AfficherDetails();
+
+        Paypal paiementPyl1 = new Paypal(45, "Abonnement salle de sport", "nour@gmail.com");
+        Paypal paiementPyl2 = new Paypal(800.00, "Payement de loyer", "miri@gmail.com");
+
+        paiementPyl1.AfficherDetails();
+        paiementPyl2.AfficherDetails();
     }
 }
